@@ -1,1 +1,2 @@
-web: python manage.py migrate && gunicorn webselface_com.wsg -k uvicorn_worker.UvicornWorker
+# If u deploy on heroku or raiway: you will need this file else: delete
+web: python manage.py migrate && gunicorn SimplePortfolioDjangoTemplate.wsg -k uvicorn_worker.UvicornWorker
