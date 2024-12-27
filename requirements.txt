@@ -1,0 +1,6 @@
+cloudinary
+Django
+psycopg2
+python-dotenv
+whitenoise
+
